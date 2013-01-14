@@ -1337,11 +1337,11 @@ function user_block_info() {
   // Not worth caching.
   $blocks['login']['cache'] = DRUPAL_NO_CACHE;
 
-  $blocks['new']['info'] = t('Who\'s new');
+  //$blocks['new']['info'] = t('Who\'s new');
   $blocks['new']['properties']['administrative'] = TRUE;
 
   // Too dynamic to cache.
-  $blocks['online']['info'] = t('Who\'s online');
+  //$blocks['online']['info'] = t('Who\'s online');
   $blocks['online']['cache'] = DRUPAL_NO_CACHE;
   $blocks['online']['properties']['administrative'] = TRUE;
 
@@ -1414,7 +1414,7 @@ function user_block_view($delta = '') {
         $items = db_query_range('SELECT uid, name FROM {users} WHERE status <> 0 AND access <> 0 ORDER BY created DESC', 0, variable_get('user_block_whois_new_count', 5))->fetchAll();
         $output = theme('user_list', array('users' => $items));
 
-        $block['subject'] = t('Who\'s new');
+        //$block['subject'] = t('Who\'s new');
         $block['content'] = $output;
       }
       return $block;
