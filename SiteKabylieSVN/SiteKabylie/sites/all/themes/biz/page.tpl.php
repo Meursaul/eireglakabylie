@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
 * @file page.tpl.php
 * Default theme implementation to display a single Drupal page.
@@ -139,6 +139,8 @@ Regions:
      </table>
     </div>
 <!-- !Don't remove footer links! -->
-<!-- Footer links -->
- <div class="footer-info"><ul><li>Drupal Theme sponsored by <a href="http://sw.bi3.biz" target="_blank" title="Kostenlose Software Downloads">BI3: kostenlose Software Downloads</a></li><li>| <a href="http://drupal.org/project/biz" target="_blank" rel="nofollow" title="BIZ-Theme Download">Theme Download</a></li></ul></div>
+<!-- Footer links-->
+ <div><center><br>1997-2013 © eireglakabylie.fr -  Tél. +33 6 74 56 60 16 <br>
+   Plan du site - C.G.U. - Charte - eireglakabylie.fr est développé par Meursaul - Paris </center></div>
+ <!-- <div class="footer-info"><ul><li>Drupal Theme sponsored by <a href="http://sw.bi3.biz" target="_blank" title="Kostenlose Software Downloads">BI3: kostenlose Software Downloads</a></li><li>| <a href="http://drupal.org/project/biz" target="_blank" rel="nofollow" title="BIZ-Theme Download">Theme Download</a></li></ul></div> -->
 <!-- Footer links END-->
