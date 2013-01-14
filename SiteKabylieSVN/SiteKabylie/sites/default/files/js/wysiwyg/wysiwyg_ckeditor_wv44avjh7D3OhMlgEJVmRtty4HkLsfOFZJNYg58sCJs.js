@@ -1,0 +1,1 @@
+window.CKEDITOR_BASEPATH = '/SiteKabylieSVN/SiteKabylie/sites/all/libraries/ckeditor/';
